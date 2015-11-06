@@ -1,0 +1,26 @@
+.sticker-on-sidebar {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  &:hover {
+    .delete {
+      display: block;
+    }
+  }
+  span {
+    background-color: #fff;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+}

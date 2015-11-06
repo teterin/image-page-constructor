@@ -1,0 +1,35 @@
+{
+  "name": "Photo.sticker",
+  "version": "0.1.0",
+  "description": "Photo sticker",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Pavel Teterin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3",
+    "react": "0.14.0",
+    "react-dom": "0.14.0",
+    "react-redux": "4.0.0",
+    "redux": "3.0.2",
+    "redux-thunk": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "5.8.25",
+    "babel-loader": "5.3.2",
+    "babel-plugin-react-transform": "1.1.1",
+    "babel-runtime": "5.8.25",
+    "css-loader": "0.21.0",
+    "extract-text-webpack-plugin": "0.8.2",
+    "html-webpack-plugin": "1.6.2",
+    "node-sass": "3.3.3",
+    "react-transform-hmr": "1.0.1",
+    "sass-loader": "3.0.0",
+    "style-loader": "0.13.0",
+    "webpack": "1.12.2",
+    "webpack-dev-middleware": "1.2.0",
+    "webpack-hot-middleware": "2.4.1"
+  }
+}

@@ -1,0 +1,33 @@
+.sticker-on-photo {
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  padding: 10px;
+  .resizer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  &:hover {
+    .resizer {
+      display: block;
+    }
+    .delete {
+      display: block;
+    }
+  }
+  span {
+    background-color: #fff;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+}
